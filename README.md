@@ -2,7 +2,7 @@
 
 ## 🗓️ News
 
-- **2024.07.31** code v1.0 released
+- **2025.07.31** code v1.0 released
 - **2025.07.20** TMM minor revision
 
 ## 📜 Abstract
@@ -34,7 +34,7 @@ step 3. Refer to [train_and_eval.md](./docs/Guidance/train_and_eval.md) for trai
 ## 🚀 Model Zoo
 
 We retrained the model and achieved better performance compared to the results reported in the tables of the paper. We provide the checkpoints on View-of-delft (VoD) and TJ4DRadSet datasets, reproduced with the released codebase.
-
+<div style="text-align: center;">
 |                           Dataset                            | Backbone | Model | EAA 3D mAP | DC 3D mAP |                        Model Weights                         |
 | :----------------------------------------------------------: | :------: | :--------: | :--------: | :-------: | :----------------------------------------------------------: |
 | View-of-delft | ResNet50 | LXL      |  56.31    |   72.93   | Link |
@@ -43,7 +43,7 @@ We retrained the model and achieved better performance compared to the results r
 | TJ4DRadSet    | ResNet50 | LXL      |  36.32    |   41.20   | Link |
 | TJ4DRadSet    | ResNet50 | SGDet3D  |  41.82    |   47.16   | Link |
 | TJ4DRadSet    | ResNet50 | SIFormer |  46.51    |   50.42   | Link |
-
+</div>
 ### 😙 Acknowledgement
 
 Many thanks to these exceptional open source projects:
