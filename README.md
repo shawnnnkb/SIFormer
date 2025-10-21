@@ -17,11 +17,11 @@ Architecture of our SIFormer. (a) The feature extractor extracts 4D radar and im
 ![Cross-View Correlation](./docs/all_Figures/cross-view.png)
 The illustration of our instance awareness enhancement stage. We first employ cross view correlation (CVC) to activate all potential regions of interest within scene feature using a learnable token. To be specific, the instance attended correlation connects the aggregated instances with the RC-BEV through matrix operations, producing a correlation map, which is then used to calculate the cosine similarity with the scene feature. Consequently, the output of CVC serve as improved queries for the subsequent instance enhance attention (IEA), facilitating further aggregation of semantics and geometry.
 
-## 🍁 Quantitative Results
+<!-- ## 🍁 Quantitative Results
 
 ![View-of-Delft](./docs/all_Figures/Tab-VoD.png)
 
-![TJ4DRadSet ](./docs/all_Figures/Tab-TJ4D.png)
+![TJ4DRadSet ](./docs/all_Figures/Tab-TJ4D.png) -->
 
 ## 🔥 Getting Started
 
@@ -31,7 +31,7 @@ step 2. Refer to [dataset.md](./docs/Guidance/dataset.md) to prepare View-of-del
 
 step 3. Refer to [train_and_eval.md](./docs/Guidance/train_and_eval.md) for training and evaluation.
 
-## 🚀 Model Zoo
+<!-- ## 🚀 Model Zoo
 
 We retrained the model and achieved better performance compared to the results reported in the tables of the paper. We provide the checkpoints on View-of-delft (VoD) and TJ4DRadSet datasets, reproduced with the released codebase.
 <div style="text-align: center;">
@@ -42,7 +42,7 @@ We retrained the model and achieved better performance compared to the results r
 | View-of-delft | ResNet50 | SIFormer |  63.32    |   83.06   | Link |
 | TJ4DRadSet    | ResNet50 | LXL      |  36.32    |   41.20   | Link |
 | TJ4DRadSet    | ResNet50 | SGDet3D  |  41.82    |   47.16   | Link |
-| TJ4DRadSet    | ResNet50 | SIFormer |  46.51    |   50.42   | Link |
+| TJ4DRadSet    | ResNet50 | SIFormer |  46.51    |   50.42   | Link | -->
 </div>
 ### 😙 Acknowledgement
 
