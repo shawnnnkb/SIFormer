@@ -1,7 +1,7 @@
-# SIFormer: Semantics and Geometry Fusion for 3D Object Detection Using 4D Radar and Camera
+# SIFormer: Boosting Instance Awareness via Cross-View Correlation with 4D Radar and Camera for 3D Object Detection
 
 ## 🗓️ News
-
+- **2025.12.11** TMM accepted
 - **2025.07.31** code v1.0 released
 - **2025.07.20** TMM minor revision
 
