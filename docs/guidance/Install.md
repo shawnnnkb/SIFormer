@@ -20,6 +20,8 @@ mim install mmengine
 pip install mmcv-full==1.4.0
 pip install mmdet==2.14.0
 pip install mmsegmentation==0.14.1
+# cover envs/SIFormer/lib/python3.8/site-packages/mmdet/models/detectors/two_stage.py with docs/two_stage.py
+# cover envs/SIFormer/lib/python3.8/site-packages/mmdet/models/roi_heads/standard_roi_head.py with docs/standard_roi_head.py
 ```
 
 **d. Install detectron2 following  [detectron2](https://detectron2.readthedocs.io/en/latest/tutorials/install.html).**

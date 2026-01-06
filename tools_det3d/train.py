@@ -21,7 +21,7 @@ from mmcv.runner.dist_utils import master_only
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train a detector')
-    parser.add_argument('--config', default='projects/SIFormer/configs/ablation_robustness/vod-SIFormer_det3d_2x4_24e_drop.py', help='train config file path')
+    parser.add_argument('--config', default='projects/SIFormer/configs/vod-SIFormer_det3d_2x4_24e.py', help='train config file path')
     parser.add_argument('--work-dir', help='the dir to save logs and models')
     parser.add_argument(
         '--resume-from', help='the checkpoint file to resume from')
